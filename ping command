@@ -1,0 +1,17 @@
+✅ When to Use ping:
+Check if a website or server is up.
+
+Test your internet connection.
+
+Diagnose network delays or packet loss.
+
+Find issues with local or remote network connectivity.
+
+
+| Command                  | Description                        |
+| ------------------------ | ---------------------------------- |
+| `ping -n 5 google.com`   | Send 5 ping requests               |
+| `ping -l 100 google.com` | Send ping with 100 bytes of data   |
+| `ping -t google.com`     | Ping continuously (Ctrl+C to stop) |
+| `ping -4 google.com`     | Force IPv4 ping                    |
+| `ping -6 google.com`     | Force IPv6 ping                    |
